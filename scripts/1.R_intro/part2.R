@@ -6,7 +6,7 @@
 
 #### 1. Reading/writing text files
 
-# printing working directory
+# printing working directory imposstazione della working directory samples
 getwd()
 setwd("samples") # notice that this can also be done via the RStudio GUI
 getwd()
@@ -30,7 +30,10 @@ cat("The cat is on the table", file = "Cat.txt")
 # please write the code immediately down here (in the empty space) 
 # save the file, and then push to the GitHub repo 
 
-
+my_text <- readLines("samples/Doyle_Study_1887.txt")
+head(my_text)
+my_text <- paste(my_text, collapse = "\n")
+strsplit(my_text, " ")
 
 ### Your Turn (1) - end
 
