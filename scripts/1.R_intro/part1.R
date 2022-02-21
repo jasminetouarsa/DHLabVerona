@@ -82,11 +82,12 @@ my_df$nationality[which(my_df$author == "Dante")]
 
 ### Your Turn (2) - start
 
+
 # find the author who has "Spanish" nationality
 # please write the code immediately down here (in the empty space) 
 # save the file, and then push to the GitHub repo 
 
-
+my_df$author[which(my_df$nationality == "Spanish")]
 
 ### Your Turn (2) - end
 
